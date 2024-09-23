@@ -1,0 +1,93 @@
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.heading {
+  margin-top: 70px;
+  color: black;
+}
+
+.bar {
+  background-color: #ffffff;
+  border-style: solid;
+  border-radius: 40px;
+  border-color: #61cdbb;
+  color: #000000;
+  font-size: 30px;
+  width: 200px;
+  height: 250px;
+  margin: 20px;
+  padding-top: 50px;
+}
+
+.allbars {
+  background-color: #ffffff;
+  padding-top: 50px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.bars {
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.graphs {
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.graph {
+  padding-bottom: 70px;
+}
+
+@media only screen and (min-width: 900px) {
+  .graphs {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .graphs{
+    padding-left: 200px;
+    padding-right: 200px;
+
+    
+  }
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .bars {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .bars {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+.p_bar {
+  font-weight: bold;
+  font-size: 23px;
+}

@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navline {
+  color: #61cdbb;
+}
+.topnav {
+  overflow: visible;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar-brand {
+  align-items: center;
+  margin-left: 30px;
+}
+.navbar-brand > img {
+  width: 120px;
+  height: 60px;
+
+
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 60px;
+
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #61cdbb;
+  text-decoration: none;
+}
+
+.searchBar{
+  float: right;
+  text-align: center;
+  padding:20px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 60px;
+  border-radius: 30px;
+}
+
+@media(max-width:600px){
+  .topnav {position: fixed;}
+  .topnav a {position: relative; float: none;}
+    .searchBar {display: none;}
+    .navline {position: relative; float: none;}
+  .navbar-brand {position: relative;}
+  .navbar-brand > img {position: relative;float: none;}
+}
+
+@media(max-width:1200px) {
+  .searchBar {display: none;}
+}
+
+@media(max-width:1200px) {
+  .searchBar {display: none;}
+  .navline {display: none}
+  .navbar-brand > img {position: relative; width: 50px; height: 20px;}
+  .topnav a {font-size: 15px;}
+}
+
+
+
+
+
+
+

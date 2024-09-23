@@ -1,0 +1,126 @@
+.tabsDiv {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  background-color: #ededed;
+  margin-top: 80px;
+}
+
+.choropleth {
+  height: 700px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+#btn1 {
+  pointer-events: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+  color: #61cdbb;
+  padding: 10px;
+  text-transform: uppercase;
+  border-style: none;
+}
+
+#btn1:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#btn2:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#btn2 {
+  text-decoration: none;
+  font-weight: bold;
+  color: #61cdbb;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: none;
+}
+
+#btn3 {
+  background-color: #ededed;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  border-color: black;
+  border-style: solid;
+  color: black;
+  border-radius: 30px;
+}
+
+#btn4 {
+  background-color: #ededed;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  border-color: black;
+  border-style: solid;
+  color: black;
+}
+
+#btn4:active {
+  background-color: #61cdbb;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  border-color: black;
+  border-style: solid;
+  color: black;
+}
+
+#btn3:active {
+  background-color: #61cdbb;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  border-color: black;
+  border-style: solid;
+  color: black;
+}
+
+#table {
+  margin: auto;
+  display: none;
+  width: 80%;
+  cursor: pointer;
+}

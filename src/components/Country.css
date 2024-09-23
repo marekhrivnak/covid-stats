@@ -1,0 +1,133 @@
+.title {
+ text-align: center;
+  padding-top: 120px;
+  background-color: #ededed;
+  box-shadow: 10px 10px 8px #000000;
+
+}
+
+.infosquares {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: -20px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ededed;
+}
+
+.square {
+  background-color: #ededed;
+  border-style: solid;
+  border-radius: 40px;
+  border-color: #61cdbb;
+  color: #000000;
+  padding: 50px;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.rate {
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 1200px) {
+  .infosquares {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .infosquares {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+
+.graphs {
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.graph {
+  padding-bottom: 70px;
+}
+
+@media only screen and (min-width: 900px) {
+  .graphs {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .graphs {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+.countryFlag {
+  width: 250px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.square_body {
+
+  background-color: #ededed;
+  border-style: solid;
+  border-radius: 40px;
+  border-color: #61cdbb;
+  color: #000000;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.square_vacc {
+  background-color: #ededed;
+  border-style: solid;
+  border-radius: 40px;
+  border-color: #61cdbb;
+  color: #000000;
+  padding: 20px;
+  height: 200px;
+  width: 400px;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.sqare_body_vac {
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.unavailable{
+  font-weight: lighter;
+
+
+
+}
+
+@media(max-width:1200px) {
+  .sqare_body_vac {padding-top: 0px;}
+}
+
